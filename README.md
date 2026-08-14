@@ -9,18 +9,23 @@ Portable DJ set up using Mixxx, an open source DJ software. Take this set up and
 4. Mixxx Setup
 
 ## 1a. Component List:
-- Raspberry Pi 5 (16GB)
-- 32GB SD Card
-- 500GB - 1TB SSD
-- 145W Power Bank (5V/5A if possible)
-- Buck Converter (needed if 5V/5A power bank not feasible)
-- Portable Monitor
-- Touchpad or mouse
-- Keyboard
-- DJ Controller (with sound card inside)
-- Speaker
+Alternatives are untested but worth exploring.
+
+| Tested Component | Possible Alternatives |
+| --- | --- |
+| Raspberry Pi 5, 16GB | Raspberry Pi 5, 8GB; Raspberry Pi 4B, 32GB; Raspberry Pi 4B, 16GB |
+| 32GB SD Card | Any larger SD card |
+| 1TB SSD | 500GB SSD; 1TB HHD; 500GB HHD |
+| Power Bank, 145W, 25000mAh | Power Bank, 65W minimum (for adequate power delivery), 25000mAh maximum (keeps it flight legal) |
+| Buck Converter | Not needed if power bank has a 5V/5A profile |
+| 13in Portable Monitor | Any size monitor |
+| Wired TouchPad | Computer mouse; Wireless Touchpad (draws less power) |
+| Bluetooth Keyboard | Wired Keyboard (draws more power) |
+| DJ Controller | Game Controller (?) |
+| Portable Speaker (Aux input) | Large speakers with RCA input |
 
 ## 1b. Component Diagram:
+![Component Connections Diagram](https://github.com/user-attachments/files/31064040/DJ-cyberdeck-diagram.pdf)
 
 
 ## 2. Software List:
