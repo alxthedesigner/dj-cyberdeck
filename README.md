@@ -25,7 +25,8 @@ Alternatives are untested but worth exploring.
 | Portable Speaker (Aux input) | Large speakers with RCA input |
 
 ## 1b. Component Diagram:
-![Component Connections Diagram](./DJ-cyberdeck-diagram2.png)
+<img src="./DJ-cyberdeck-diagram2.png" width="600" />
+
 
 
 ## 2. Software List:
