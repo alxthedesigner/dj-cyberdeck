@@ -103,10 +103,6 @@ git checkout <exact-tag-name>
     sudo udevadm control --reload-rules && sudo udevadm trigger
     ```
 
-4. Run Mixxx:
-   `mixxx --controllerDebug //--controllerDebug shows any controller issues in the console `
-
-
 4. Configure DJ Controller
   - Choose the controller mapping from Mixxx's preferences/options. Find your DJ Controller's mapping online if it is not present inside Mixxx.
   - To import the `.scripts.js` and `midi.xml` mapping files for the **Hercules DJ Control Inpulse 300 Mk2** into the `/.mixxx/controllers` directory on the Raspberry Pi, copy the files from the working directory:
@@ -115,9 +111,13 @@ git checkout <exact-tag-name>
     `cp midi-components-0.0.js /.mixxx/controllers`
 
 
+5. Run Mixxx:
+   `mixxx --controllerDebug //--controllerDebug shows any controller issues in the console `
+
+
 
 ## 6. Generating Stems
-2. To use stems in Mixxx version 2.6, music has to be imported in its .stem.mp4 form. This means you have to convert your music to a .stem.mp4 file by running the `generate_stem.py`
+To use stems in Mixxx version 2.6, music has to be imported in its .stem.mp4 form. This means you have to convert your music to a .stem.mp4 file by running the `generate_stem.py`
 file.
   - On your computer, NOT your raspberry pi, navigate to your working directory to activate your `venv` and install `requirements.txt`:
       ```
