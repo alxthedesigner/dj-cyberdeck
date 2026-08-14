@@ -59,7 +59,7 @@ Make sure all peripherals are plugged into the Pi before you turn it on.
 5. When you boot the Pi, a desktop interface should show up. There is a command line 
 console button (black square with white symbols) in the top left corner of the toolbar. 
 Click it to enter the console.
-  - From Raspberry Pi desktop console, Install build Mixxx 2.6 dependencies (all one command):
+  - From Raspberry Pi desktop console, Install build Mixxx 2.6 dependencies:
     ```
     sudo apt update
     sudo apt install -y \
