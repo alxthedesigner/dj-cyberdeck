@@ -62,7 +62,7 @@ This is how you get the Operating system that runs Mixxx (Raspberry Pi OS) onto 
 
 2. Connect your DJ Controller
    Connect to your DJ Controller or choose your mapping from Mixxx's preferences/options. Find your DJ Controller's mapping online if it is not present inside Mixxx.
-   - If you found your mapping outside of Mixxx's options, move your `.midi.xml` and `.scripts.js` mapping files to the `~./Mixxx/controllers` directory on the Raspberry Pi. This is where your DJ controller mappings will be picked up.
+   - If you found your mapping outside of Mixxx's options, move your `.midi.xml` and `.scripts.js` mapping files to the `.mixxx/controllers` directory on the Raspberry Pi. This is where your DJ controller mappings will be picked up.
   
 3. To use stems in Mixxx version 2.6, music has to be imported in its .stem.mp4 form. This means you have to convert your music to a .stem.mp4 file by running the `generate_stem.py`
 file.
