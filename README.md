@@ -1,5 +1,6 @@
 # dj-cyberdeck
-Portable DJ set up using Mixxx, an open source DJ software. Take this set up and leave your laptop at home!
+Portable DJ set up for DJs, artists, and tech people. This setup uses open source DJ software called Mixxx on a Raspberry Pi. Leave your main laptop at home and take this to any of your gigs!
+
 
 ## Table of Contents
 1. Software List
