@@ -37,7 +37,7 @@ How all the technical components are connected inside the cyberdeck:
 
 
 ## 4. Raspberry Pi OS Setup
-Make sure all peripherals are plugged into the Pi before you turn it on. 
+Plug MicroSD, external storage, and all other peripherals to Raspberry Pi before powering it on.
 
 1. To install the Operating system that runs Mixxx (Raspberry Pi OS) onto the Raspberry Pi: Flash the operating system onto the SD card with the Raspberry Pi Imager.
   - Open the Raspberry Pi Imager and select Raspberry Pi 5 and choose the Raspberry Pi OS (64-bit) operating system for the SD card.
@@ -77,6 +77,9 @@ Click it to enter the console.
       ```
     
 ## 5. Mixxx Setup
+If you are using a Hercules DJ controller, copy the `Hercules_DJControl_Inpulse_300_Mk.script.js`
+and `Hercules_DJControl_Inpulse_300_Mk.midi.xml` files from this repo to your external hard drive. Otherwise, 
+download your conteroller's corresponding `.script.js` and `.midi.xml` configuration flies from the correct website.
 1. Install Mixxx
   - Clone Mixxx and check 2.6 tag
     ```
